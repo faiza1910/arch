@@ -1,0 +1,6 @@
+results/
+data/
+*.csv
+*.pt
+*.bin
+*.ckpt
