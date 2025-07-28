@@ -1,0 +1,61 @@
+{
+  "os":  "Linux-6.8.0-49-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.18",
+  "startedAt":  "2025-07-28T05:26:29.568060Z",
+  "program":  "/local-scratch1/faiza-project/scripts/load_gsm8k.py",
+  "codePath":  "scripts/load_gsm8k.py",
+  "codePathLocal":  "scripts/load_gsm8k.py",
+  "git":  {
+    "remote":  "https://github.com/faiza1910/arch.git",
+    "commit":  "a91f007d4c2f65f700f4a016639690f083597bf5"
+  },
+  "email":  "tfaiza550@gmail.com",
+  "root":  "/local-scratch1/faiza-project",
+  "host":  "cs-tai-srv01.cmpt.sfu.ca",
+  "executable":  "/localhome/fta17/anaconda3/envs/faizaenv/bin/python3.10",
+  "cpu_count":  56,
+  "cpu_count_logical":  112,
+  "gpu":  "NVIDIA RTX 6000 Ada Generation",
+  "gpu_count":  4,
+  "disk":  {
+    "/":  {
+      "total":  "136259117056",
+      "used":  "54982647808"
+    }
+  },
+  "memory":  {
+    "total":  "539741990912"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  18176,
+      "architecture":  "Ada",
+      "uuid":  "GPU-61b7cc9d-67fe-6181-beec-120e77e55f66"
+    },
+    {
+      "name":  "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  18176,
+      "architecture":  "Ada",
+      "uuid":  "GPU-31a22260-5bff-2c55-66f5-4bc2cde73d8c"
+    },
+    {
+      "name":  "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  18176,
+      "architecture":  "Ada",
+      "uuid":  "GPU-2742e0a3-fe85-9a4c-1036-267a25d04039"
+    },
+    {
+      "name":  "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  18176,
+      "architecture":  "Ada",
+      "uuid":  "GPU-21eb01b7-c94e-8e0a-1f78-a70c3716f7d0"
+    }
+  ],
+  "cudaVersion":  "12.7",
+  "writerId":  "pg55nsvph8cwrd3rmxvn23yzt1cop9tk"
+}

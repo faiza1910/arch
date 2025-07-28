@@ -18,6 +18,7 @@ if args.gpus != "all":
     os.environ["CUDA_VISIBLE_DEVICES"] = args.gpus
 
 import torch
+import wandb
 from datasets import load_dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments
 from torch.utils.data import DataLoader
@@ -75,6 +76,14 @@ if __name__ == "__main__":
         
     )
 
+    training_args = training_args.set_logging(
+        strategy = "steps",
+        steps = 100,
+        level="info",
+        report_to="wandb"
+    )
+
+
     trainer = Trainer(
         model = model,
         args = training_args,
@@ -84,8 +93,8 @@ if __name__ == "__main__":
 
     trainer.train()
 
-    metrics = trainer.evaluate(tokenized_dataset["test"])
-    print("Test set metrics:", metrics)
-    print("Test set loss:", metrics.get("eval_loss"))
+    #metrics = trainer.evaluate(tokenized_dataset["test"])
+    #print("Test set metrics:", metrics)
+    #print("Test set loss:", metrics.get("eval_loss"))
     model.save_pretrained(f"{args.output_dir}/model")
     tokenizer.save_pretrained(f"{args.output_dir}/model")

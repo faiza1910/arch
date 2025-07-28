@@ -1,0 +1,26 @@
+  0%|                                                                                                                                                                            | 0/468 [00:00<?, ?it/s]`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋| 467/468 [00:36<00:00, 12.94it/s]Saving model checkpoint to ./results/checkpoint-468
+{'loss': 1.7319, 'grad_norm': 1.134843349456787, 'learning_rate': 0.00044764957264957267, 'epoch': 0.21}
+{'loss': 1.223, 'grad_norm': 0.8480153679847717, 'learning_rate': 0.0003942307692307692, 'epoch': 0.43}
+{'loss': 1.1124, 'grad_norm': 0.8682450652122498, 'learning_rate': 0.00034081196581196583, 'epoch': 0.64}
+{'loss': 1.0487, 'grad_norm': 0.8945542573928833, 'learning_rate': 0.0002873931623931624, 'epoch': 0.85}
+{'loss': 0.9664, 'grad_norm': 0.7918079495429993, 'learning_rate': 0.000233974358974359, 'epoch': 1.07}
+{'loss': 0.8118, 'grad_norm': 0.7211323380470276, 'learning_rate': 0.00018055555555555555, 'epoch': 1.28}
+{'loss': 0.7753, 'grad_norm': 0.6989618539810181, 'learning_rate': 0.00012713675213675213, 'epoch': 1.5}
+{'loss': 0.7539, 'grad_norm': 0.7722123861312866, 'learning_rate': 7.371794871794872e-05, 'epoch': 1.71}
+{'loss': 0.7651, 'grad_norm': 0.7425506711006165, 'learning_rate': 2.02991452991453e-05, 'epoch': 1.92}
+Configuration saved in ./results/checkpoint-468/config.json
+Configuration saved in ./results/checkpoint-468/generation_config.json
+Model weights saved in ./results/checkpoint-468/model.safetensors
+
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 468/468 [00:37<00:00, 12.36it/s]
+{'train_runtime': 38.7763, 'train_samples_per_second': 385.442, 'train_steps_per_second': 12.069, 'train_loss': 1.0116099353529449, 'epoch': 2.0}
+Configuration saved in ./results/model/config.json
+Configuration saved in ./results/model/generation_config.json
+Model weights saved in ./results/model/model.safetensors
+tokenizer config file saved in ./results/model/tokenizer_config.json
+Special tokens file saved in ./results/model/special_tokens_map.json
