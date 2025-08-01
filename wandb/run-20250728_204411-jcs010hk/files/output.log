@@ -1,0 +1,21 @@
+  0%|                                                                                                                                                     | 0/468 [00:00<?, ?it/s]`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 468/468 [00:51<00:00,  8.92it/s]Saving model checkpoint to ./results/checkpoint-468
+{'loss': 0.8544, 'grad_norm': 0.414864182472229, 'learning_rate': 0.0003942307692307692, 'epoch': 0.43}
+{'loss': 0.5528, 'grad_norm': 0.4345490038394928, 'learning_rate': 0.0002873931623931624, 'epoch': 0.85}
+{'loss': 0.4705, 'grad_norm': 0.9309114217758179, 'learning_rate': 0.00018055555555555555, 'epoch': 1.28}
+{'loss': 0.4102, 'grad_norm': 0.3537570834159851, 'learning_rate': 7.371794871794872e-05, 'epoch': 1.71}
+Configuration saved in ./results/checkpoint-468/config.json
+Configuration saved in ./results/checkpoint-468/generation_config.json
+Model weights saved in ./results/checkpoint-468/model.safetensors
+
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 468/468 [00:53<00:00,  8.81it/s]
+{'train_runtime': 53.9861, 'train_samples_per_second': 276.849, 'train_steps_per_second': 8.669, 'train_loss': 0.5473030489734095, 'epoch': 2.0}
+Configuration saved in ./results/model/config.json
+Configuration saved in ./results/model/generation_config.json
+Model weights saved in ./results/model/model.safetensors
+tokenizer config file saved in ./results/model/tokenizer_config.json
+Special tokens file saved in ./results/model/special_tokens_map.json

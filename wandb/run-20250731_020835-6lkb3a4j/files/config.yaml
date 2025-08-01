@@ -1,0 +1,79 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            nr8ksmz10kfqkkuve2jjzx9dkiujl3hc:
+                codePath: scripts/load_gsm8k.py
+                codePathLocal: scripts/load_gsm8k.py
+                cpu_count: 56
+                cpu_count_logical: 112
+                cudaVersion: "12.7"
+                disk:
+                    /:
+                        total: "136259117056"
+                        used: "56159232000"
+                email: tfaiza550@gmail.com
+                executable: /localhome/fta17/anaconda3/envs/faizaenv/bin/python
+                git:
+                    commit: d2d458f09344d00dbd6c2ff0ca0e40f5d0f6c0fb
+                    remote: https://github.com/faiza1910/arch.git
+                gpu: NVIDIA RTX 6000 Ada Generation
+                gpu_count: 4
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 18176
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX 6000 Ada Generation
+                      uuid: GPU-61b7cc9d-67fe-6181-beec-120e77e55f66
+                    - architecture: Ada
+                      cudaCores: 18176
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX 6000 Ada Generation
+                      uuid: GPU-31a22260-5bff-2c55-66f5-4bc2cde73d8c
+                    - architecture: Ada
+                      cudaCores: 18176
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX 6000 Ada Generation
+                      uuid: GPU-2742e0a3-fe85-9a4c-1036-267a25d04039
+                    - architecture: Ada
+                      cudaCores: 18176
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX 6000 Ada Generation
+                      uuid: GPU-21eb01b7-c94e-8e0a-1f78-a70c3716f7d0
+                host: cs-tai-srv01.cmpt.sfu.ca
+                memory:
+                    total: "539741990912"
+                os: Linux-6.8.0-49-generic-x86_64-with-glibc2.35
+                program: /local-scratch1/faiza-project/scripts/load_gsm8k.py
+                python: CPython 3.10.18
+                root: /local-scratch1/faiza-project
+                startedAt: "2025-07-31T09:08:35.201094Z"
+                writerId: nr8ksmz10kfqkkuve2jjzx9dkiujl3hc
+        m: []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 51
+                - 53
+                - 71
+                - 100
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 51
+                - 53
+                - 71
+                - 100
+            "4": 3.10.18
+            "5": 0.21.0
+            "6": 4.54.1
+            "12": 0.21.0
+            "13": linux-x86_64

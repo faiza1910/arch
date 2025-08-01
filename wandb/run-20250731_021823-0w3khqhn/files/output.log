@@ -1,0 +1,21 @@
+  0%|                                                                                                                                                                                                          | 0/468 [00:00<?, ?it/s]`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌| 467/468 [01:33<00:00,  4.87it/s]Saving model checkpoint to ./results/checkpoint-468
+{'loss': 0.1296, 'grad_norm': 0.08828801661729813, 'learning_rate': 0.0003942307692307692, 'epoch': 0.43}
+{'loss': 0.0746, 'grad_norm': 0.09177914261817932, 'learning_rate': 0.0002873931623931624, 'epoch': 0.85}
+{'loss': 0.067, 'grad_norm': 0.08472221344709396, 'learning_rate': 0.00018055555555555555, 'epoch': 1.28}
+{'loss': 0.0619, 'grad_norm': 0.10791638493537903, 'learning_rate': 7.371794871794872e-05, 'epoch': 1.71}
+Configuration saved in ./results/checkpoint-468/config.json
+Configuration saved in ./results/checkpoint-468/generation_config.json
+Model weights saved in ./results/checkpoint-468/model.safetensors
+
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 468/468 [01:35<00:00,  4.92it/s]
+{'train_runtime': 96.0091, 'train_samples_per_second': 155.673, 'train_steps_per_second': 4.875, 'train_loss': 0.07970904285072261, 'epoch': 2.0}
+Configuration saved in ./results/model/config.json
+Configuration saved in ./results/model/generation_config.json
+Model weights saved in ./results/model/model.safetensors
+tokenizer config file saved in ./results/model/tokenizer_config.json
+Special tokens file saved in ./results/model/special_tokens_map.json

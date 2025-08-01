@@ -1,0 +1,19 @@
+  0%|                                                                                                                                                          | 0/468 [00:00<?, ?it/s]`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+ 60%|██████████████████████████████████████████████████████████████████████████████████████▍                                                         | 281/468 [00:18<00:10, 17.37it/s]Traceback (most recent call last):
+  File "/local-scratch1/faiza-project/scripts/load_gsm8k.py", line 84, in <module>
+    trainer.train()
+  File "/localhome/fta17/anaconda3/envs/faizaenv/lib/python3.10/site-packages/transformers/trainer.py", line 2237, in train
+    return inner_training_loop(
+  File "/localhome/fta17/anaconda3/envs/faizaenv/lib/python3.10/site-packages/transformers/trainer.py", line 2532, in _inner_training_loop
+    batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches, args.device)
+  File "/localhome/fta17/anaconda3/envs/faizaenv/lib/python3.10/site-packages/transformers/trainer.py", line 5350, in get_batch_samples
+    batch_samples.append(next(epoch_iterator))
+  File "/localhome/fta17/anaconda3/envs/faizaenv/lib/python3.10/site-packages/accelerate/data_loader.py", line 576, in __iter__
+    current_batch = send_to_device(current_batch, self.device, non_blocking=self._non_blocking)
+  File "/localhome/fta17/anaconda3/envs/faizaenv/lib/python3.10/site-packages/accelerate/utils/operations.py", line 178, in send_to_device
+    {
+  File "/localhome/fta17/anaconda3/envs/faizaenv/lib/python3.10/site-packages/accelerate/utils/operations.py", line 179, in <dictcomp>
+    k: t if k in skip_keys else send_to_device(t, device, non_blocking=non_blocking, skip_keys=skip_keys)
+  File "/localhome/fta17/anaconda3/envs/faizaenv/lib/python3.10/site-packages/accelerate/utils/operations.py", line 153, in send_to_device
+    return tensor.to(device, non_blocking=non_blocking)
+KeyboardInterrupt

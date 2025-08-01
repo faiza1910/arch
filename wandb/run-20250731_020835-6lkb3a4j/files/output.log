@@ -1,0 +1,7 @@
+Map: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7473/7473 [00:03<00:00, 2420.32 examples/s]
+Map: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1319/1319 [00:00<00:00, 2330.91 examples/s]
+Downloading builder script: 4.20kB [00:00, 14.2MB/s]
+Traceback (most recent call last):
+  File "/local-scratch1/faiza-project/scripts/load_gsm8k.py", line 80, in <module>
+    training_args = TrainingArguments(
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
